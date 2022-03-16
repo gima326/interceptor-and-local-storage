@@ -7,7 +7,9 @@ TODOリストを作成し Re-frame の使い方を確認する、という先達
 Step0: プロジェクト作成（インターセプター、ローカルストレージ利用）<br>
 Step1: Spec による「状態」のバリデーション追加<br>
 
-![todo](https://github.com/gima326/re-frame-todolist/blob/main/readme_img/todo_img.png)
+![list](https://github.com/gima326/interceptor-and-local-storage/blob/main/readme_img/list_img1.png)
+
+![list](https://github.com/gima326/interceptor-and-local-storage/blob/main/readme_img/list_img2.png)
 
 ## References
 
