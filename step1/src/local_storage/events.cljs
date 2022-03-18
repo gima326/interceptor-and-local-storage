@@ -30,16 +30,9 @@
 
 (def check-spec-interceptor
   (re-frame/after
-   (fn [args]
-     (do
-       (println "at check-spec-interceptor")
-       (println "args:" args)
-
-       ;; (partial fnc & partial-args)
-
-       (partial
-        check-and-throw
-        :local-storage.db/form)))))
+   (partial
+    check-and-throw
+    :local-storage.db/form)))
 
 (def check-interceptor
   (re-frame/after

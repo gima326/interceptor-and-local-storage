@@ -34,11 +34,7 @@
                 ;; is a sorted-map (not just a map)
                  ))
 
-;;(s/def ::db (s/keys :req-un [::todos ::showing]))
 (s/def ::form (s/keys :req-un [::todos]))
-
-(defn foo [args]
-  (println "db: " args))
 
 
 ;; -- Default app-db Value  ---------------------------------------------------
