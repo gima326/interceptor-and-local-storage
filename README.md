@@ -6,9 +6,7 @@ TODOリストを作成し Re-frame の使い方を確認する、という先達
 
 Step0: プロジェクト作成（インターセプター、ローカルストレージ利用）<br>
 Step1: インターセプター内で、Spec による「状態」のバリデーション<br>
-
-Step2: （値が不正だった場合、例外を投げて処理を終了させる、という）「Step1」の方針が気に入らない。<br>
-　　　　エラーメッセージを表示して、再実行を促すにはどうしたらいいのかな、と試行錯誤。<br>
+Step2: 不正な値にたいしてエラーメッセージを表示する。<br>
 
 
 ![list](https://github.com/gima326/interceptor-and-local-storage/blob/main/readme_img/list_img1.png)
