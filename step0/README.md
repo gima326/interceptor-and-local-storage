@@ -1,3 +1,21 @@
+# Step0: プロジェクト作成
+
+### 〜「Step0」 でやっていること〜
+
+・re-frame プロジェクトを作成する。<br>
+・ローカルストレージ利用。<br>
+・[ http://localhost:8280/ ] にアクセスして、操作の結果、入力値が保存・表示されることを確認する。
+・上記、入力値がローカルストレージに保存されることを確認する。<br>
+
+
+![list](https://github.com/gima326/interceptor-and-local-storage/blob/main/readme_img/list_img1.png)
+
+![list](https://github.com/gima326/interceptor-and-local-storage/blob/main/readme_img/list_img2.png)
+
+
+以下、プロジェクト作成時に、自動生成された README.md の内容。<br><br>
+
+
 # local-storage
 
 A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to
