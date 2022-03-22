@@ -7,6 +7,24 @@
 ・[ http://localhost:8280/ ] にアクセスして、操作の結果、入力値が保存・表示されることを確認する。<br>
 ・上記、入力値がローカルストレージに保存されることを確認する。<br>
 
+```sh
+$ npx shadow-cljs watch app
+
+npx: installed 97 in 8.18s
+shadow-cljs - config: ~/shadow-cljs.edn
+shadow-cljs - socket connect failed, server process dead?
+shadow-cljs - HTTP server available at http://localhost:8280
+shadow-cljs - HTTP server available at http://localhost:8290
+shadow-cljs - server version: 2.17.8 running at http://localhost:9630
+shadow-cljs - nREPL server started on port 8777
+shadow-cljs - watching build :app
+[:app] Configuring build.
+[:app] Compiling ...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[:app] Build completed. (205 files, 0 compiled, 0 warnings, 3.47s)
+```
 
 ![list](https://github.com/gima326/interceptor-and-local-storage/blob/main/readme_img/list_img1.png)
 
